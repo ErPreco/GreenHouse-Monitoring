@@ -8,12 +8,12 @@ It was made using gcc 11.3.0, Qt 6.2.4 and qmake 3.1 on Ubuntu 22.04 LTS. An OVA
 * logic UML (logic.dia)
 * compiled file (project)
 * files to compile the project
-  - project.pro
-    - created by "qmake -project"
-    - "QT += widgets" and "QT += core gui charts" are required but hand added
-  - .qmake.stash
-    - created by "qmake"
-  - write "make" to compile
+  * project.pro
+    * created by "qmake -project"
+    * "QT += widgets" and "QT += core gui charts" are required but hand added
+  * .qmake.stash
+    * created by "qmake"
+  * write "make" to compile
 * source files
 * assets files for icons
 * demo json file (sensor-simulation.json)
