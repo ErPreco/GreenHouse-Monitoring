@@ -1,0 +1,17 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource>
+    <file alias="deleteicon">../../assets/deleteicon.svg</file>
+    <file alias="heaticon">../../assets/heaticon.svg</file>
+    <file alias="leftarrowicon">../../assets/leftarrowicon.svg</file>
+    <file alias="lighticon">../../assets/lighticon.svg</file>
+    <file alias="loadicon">../../assets/loadicon.svg</file>
+    <file alias="minusicon">../../assets/minusicon.svg</file>
+    <file alias="modifyicon">../../assets/modifyicon.svg</file>
+    <file alias="plusicon">../../assets/plusicon.svg</file>
+    <file alias="quiticon">../../assets/quiticon.svg</file>
+    <file alias="rightarrowicon">../../assets/rightarrowicon.svg</file>
+    <file alias="saveicon">../../assets/saveicon.svg</file>
+    <file alias="watericon">../../assets/watericon.svg</file>
+</qresource>
+</RCC>

@@ -1,0 +1,50 @@
+{
+    "sensors": [
+        {
+            "distribution": {
+                "hours": 20,
+                "max": 50,
+                "maxDelta": 50,
+                "min": 0,
+                "type": "Uniform"
+            },
+            "id": 0,
+            "maxRecycledWaterPerc": 0.4,
+            "name": "Water0",
+            "type": "Water",
+            "unitOfMeasurement": "mL"
+        },
+        {
+            "dailyMinLight": 40,
+            "distribution": {
+                "hours": 24,
+                "max": 80,
+                "mean": 10,
+                "min": 30,
+                "stddev": 3.5,
+                "type": "Normal"
+            },
+            "id": 1,
+            "name": "light-sensor",
+            "sunriseHour": 5,
+            "sunsetHour": 19,
+            "type": "Light",
+            "unitOfMeasurement": "klx"
+        },
+        {
+            "distribution": {
+                "hours": 24,
+                "lambda": 0.6,
+                "max": 27,
+                "min": 23,
+                "type": "Exponential"
+            },
+            "id": 3,
+            "maxAllowedTemp": 27,
+            "minAllowedTemp": 25,
+            "name": "Heat2",
+            "type": "Heat",
+            "unitOfMeasurement": "°C"
+        }
+    ]
+}
